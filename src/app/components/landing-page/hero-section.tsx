@@ -11,7 +11,7 @@ const HeroSection = () => {
                     Connect, Collaborate, Innovate!
                 </p>
                 <p className="text-lg sm:text-2xl font-normal text-gray-800">
-                    Every last Friday of the month, we bring together the brightest minds in our local tech ecosystem. Whether you're a seasoned entrepreneur or just starting your journey, Founder's Friday is your launchpad for new ideas, valuable connections, and game-changing opportunities.
+                    Every last Friday of the month, we bring together the brightest minds in our local tech ecosystem. Whether you&apos;re a seasoned entrepreneur or just starting your journey, Founder&apos;s Friday is your launchpad for new ideas, valuable connections, and game-changing opportunities.
                 </p>
             </div>
 

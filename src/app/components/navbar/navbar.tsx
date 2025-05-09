@@ -14,7 +14,7 @@ const NavBar = () => {
                 <div className="flex items-center gap-2">
                     <Image src="/logo.svg" alt="Logo" width={60} height={60} />
                     <p className="text-xl md:text-2xl font-bold" style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }}>
-                        Founder's Friday
+                        Founder&apos;s Friday
                     </p>
                 </div>
 

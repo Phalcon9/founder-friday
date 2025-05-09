@@ -34,7 +34,7 @@ const WhoAreWe = () => {
                         </div>
                     </div>
                     <p className="mt-6 md:mt-0">
-                        Founder's Friday is more than just a meetup — it's a movement.
+                        Founder&apos;s Friday is more than just a meetup — it&apos;s a movement.
                     </p>
                 </div>
             </div>

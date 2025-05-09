@@ -2,7 +2,7 @@
 import Footer from "./components/footer/footer";
 import ComingToKaduna from "./components/landing-page/coming-to-kd";
 import HeroSection from "./components/landing-page/hero-section";
-import WaveTimeline from "./components/landing-page/wave";
+// import WaveTimeline from "./components/landing-page/wave";
 import WhoAreWe from "./components/landing-page/who-are-we";
 import NavBar from "./components/navbar/navbar";
 

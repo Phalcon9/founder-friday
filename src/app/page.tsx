@@ -5,6 +5,7 @@ import Community from "./components/landing-page/community";
 import FAQ from "./components/landing-page/faq";
 import Feedback from "./components/landing-page/feedback";
 import HeroSection from "./components/landing-page/hero-section";
+import Sponsor from "./components/landing-page/sponsor";
 // import WaveTimeline from "./components/landing-page/wave";
 import WhoAreWe from "./components/landing-page/who-are-we";
 import NavBar from "./components/navbar/navbar";
@@ -15,9 +16,10 @@ export default function Home() {
       <header>
         <NavBar />
       </header>
-      <main className="max-w-screen-4xl mx-auto px-4 py-12 flex flex-col gap-12 items-center sm:items-start">
+      <main className="max-w-screen-4xl mx-auto py-12 flex flex-col gap-12 items-center sm:items-start">
         <HeroSection />
         <WhoAreWe />
+        <Sponsor/>
         <ComingToKaduna />
         <Community/>
         <Feedback/>

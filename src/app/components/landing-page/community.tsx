@@ -32,7 +32,7 @@ const Community = () => {
             </div>
 
             {/* Bottom section */}
-            <div className="flex flex-col md:flex-row gap-10 md:gap-[40px] items-center max-w-[1568px] mx-auto">
+            <div className="flex flex-col lg:flex-row gap-10 md:gap-[40px] items-center max-w-[1568px] mx-auto">
                 <Image
                     src={'/registerimage.svg'}
                     alt="register"

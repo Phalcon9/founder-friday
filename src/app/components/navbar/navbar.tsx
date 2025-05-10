@@ -4,6 +4,7 @@ import { useState } from 'react';
 import ArrowIcon from "@/app/icons/icons";
 import Image from "next/image";
 import Link from "next/link";
+import { Button } from '@/components/ui/button';
 
 const NavBar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -26,10 +27,14 @@ const NavBar = () => {
                         <Link href='' className="text-base md:text-xl font-medium">Gallery</Link>
                         <Link href='' className="text-base md:text-xl font-medium">Contact Us</Link>
                     </div>
-                    <button className="flex items-center border-[#9524FF] border rounded-[20px] py-2 px-5 md:py-[15px] md:px-[30px] text-[#9524FF] font-medium text-lg md:text-2xl">
+                    <Button variant={"ghost"} className="w-[196px] h-[59px] border-2 rounded-[20px] py-2 px-5 md:py-[15px] md:px-[30px] text-[#9E8CAF] font-medium text-lg md:text-2xl">
                         Register
-                        <ArrowIcon />
-                    </button>
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.90002 12.5H18.62" stroke="#9E8CAF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M11.76 5.64062L18.62 12.5006L11.76 19.3606" stroke="#9E8CAF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
+
+                    </Button>
                 </div>
 
                 {/* Mobile Toggle */}

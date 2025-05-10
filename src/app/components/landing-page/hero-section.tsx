@@ -27,7 +27,7 @@ const HeroSection = () => {
             </div>
 
             {/* Sponsor Logos */}
-            <div className="flex flex-wrap items-center gap-6 mt-6">
+            <div className="flex flex-wrap items-center max-md:justify-center gap-6 mt-6">
                 {['/cafe.svg', '/mswitch.svg', '/start.png', '/boldspace.svg', '/solana.svg'].map((src, i) => (
                     <Image key={i} src={src} alt="Sponsor Logo" width={80} height={80} />
                 ))}

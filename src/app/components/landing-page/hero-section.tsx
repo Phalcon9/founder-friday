@@ -1,6 +1,6 @@
 import Image from "next/image";
 const HeroSection = () => {
-    return (<div className="flex flex-col lg:flex-row items-center justify-between w-full gap-12 max-w-[1572px] mx-auto">
+    return (<div className="flex flex-col lg:flex-row items-center justify-between w-full gap-12 max-w-[1572px] px-4 mx-auto">
         {/* Left Section - Text */}
         <div className="flex flex-col gap-10 max-w-2xl">
             <div className="flex flex-col gap-6 text-center sm:text-left">

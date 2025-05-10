@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const WhoAreWe = () => {
     return (
-        <div className="flex flex-col lg:flex-row gap-10 my-[150px] items-center  max-w-[1572px] mx-auto">
+        <div className="flex flex-col lg:flex-row gap-10 my-[150px] items-center px-4 max-w-[1572px] mx-auto">
             <Image
                 src={"founders.svg"}
                 height={564}

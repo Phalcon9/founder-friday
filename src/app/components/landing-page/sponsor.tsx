@@ -68,7 +68,7 @@ const Sponsor = () => {
                     {/* Content Section */}
                     <div className="flex flex-col lg:flex-row gap-[110px] justify-between items-start max-w-[1380px] mx-auto">
                         {/* Left Circle Grid */}
-                        <div className="shadow-2xl border-2 grid grid-cols-2 items-center justify-center gap-2 border-[#CA92FF] w-full  max-w-[600px] p-8 rounded-2xl">
+                        <div className="shadow-2xl border-2 grid grid-cols-2 items-center justify-center gap-2 border-[#CA92FF] w-full  max-w-[600px] mx-auto p-8 rounded-2xl">
                             {[
                                 { title: "Networking Opportunities", desc: "Connect with industry leaders, founders, and potential partners.", bg: "#DCB6FF" },
                                 { title: "Community Impact", desc: "Support the growth and development of the startup ecosystem.", bg: "#EDDBFF" },

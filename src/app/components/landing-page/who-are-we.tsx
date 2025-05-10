@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const WhoAreWe = () => {
     return (
-        <div className="flex flex-col md:flex-row gap-10 mt-[50px] items-center md:items-start max-w-[1572px] mx-auto">
+        <div className="flex flex-col md:flex-row gap-10 my-[150px] items-center  max-w-[1572px] mx-auto">
             <Image
                 src={"founders.svg"}
                 height={564}
@@ -13,7 +13,7 @@ const WhoAreWe = () => {
             <div className="flex gap-2">
                 <div className="border-l-[3px] border-t-[3px] border-b-[3px] mt-[30px] mb-[10px] border-[#A649FF] w-[34px] rounded-tl-[20px] rounded-bl-[20px] hidden sm:block"></div>
 
-                <div className="flex flex-col justify-between max-w-[802px]">
+                <div className="flex flex-col justify-between max-w-[802px] h-[556px]">
                     <div className="flex flex-col gap-[50px]">
                         <p className="font-bold text-[32px] md:text-[45px]">Who Are We?</p>
                         <p>
@@ -33,7 +33,7 @@ const WhoAreWe = () => {
                             </button>
                         </div>
                     </div>
-                    <p className="mt-6 md:mt-0">
+                    <p className="mt-6 md:mt-0 font-bold text-2xl">
                         Founder&apos;s Friday is more than just a meetup — it&apos;s a movement.
                     </p>
                 </div>

@@ -1,6 +1,7 @@
 
 import Footer from "./components/footer/footer";
 import ComingToKaduna from "./components/landing-page/coming-to-kd";
+import Community from "./components/landing-page/community";
 import FAQ from "./components/landing-page/faq";
 import Feedback from "./components/landing-page/feedback";
 import HeroSection from "./components/landing-page/hero-section";
@@ -18,6 +19,7 @@ export default function Home() {
         <HeroSection />
         <WhoAreWe />
         <ComingToKaduna />
+        <Community/>
         <Feedback/>
         <FAQ />
         {/* <WaveTimeline /> */}

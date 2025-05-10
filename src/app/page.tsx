@@ -1,6 +1,8 @@
 
 import Footer from "./components/footer/footer";
 import ComingToKaduna from "./components/landing-page/coming-to-kd";
+import FAQ from "./components/landing-page/faq";
+import Feedback from "./components/landing-page/feedback";
 import HeroSection from "./components/landing-page/hero-section";
 // import WaveTimeline from "./components/landing-page/wave";
 import WhoAreWe from "./components/landing-page/who-are-we";
@@ -16,7 +18,8 @@ export default function Home() {
         <HeroSection />
         <WhoAreWe />
         <ComingToKaduna />
-
+        <Feedback/>
+        <FAQ />
         {/* <WaveTimeline /> */}
 
       </main>
